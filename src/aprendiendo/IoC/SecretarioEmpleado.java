@@ -46,7 +46,7 @@ public class SecretarioEmpleado implements IEmpleados {
 
 	@Override
 	public String getInforme() {
-		return "Esta informe se ha generado con un Setter" + informeNuevo.getInforme();
+		return "Esta informe se ha generado con un Setter: " + informeNuevo.getInforme();
 	}
 
 }

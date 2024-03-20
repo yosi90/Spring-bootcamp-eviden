@@ -6,7 +6,7 @@ public class UsoEmpleados {
 
 	public static void main(String[] args) {
 		/*
-		Empleados Empleado1 = new DirectorEmpleado();
+		IEmpleados Empleado1 = new DirectorEmpleado();
 		
 		System.out.println(Empleado1.getTareas());
 		*/

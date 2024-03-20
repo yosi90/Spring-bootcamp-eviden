@@ -20,7 +20,7 @@
 	<bean id="informe" class="aprendiendo.IoC.Informe"></bean>
 	<bean id="crearSecretario" class="aprendiendo.IoC.SecretarioEmpleado">
 		<property name="informeNuevo" ref="informe"></property>
-		<property name="email" value="secreta@evedent.es"></property>
+		<property name="email" value="secreta@evident.es"></property>
 		<property name="empresa" value="evident"></property></bean>
 	<context:property-placeholder location="classpath:datosEmpresa.propiedades" />
 
